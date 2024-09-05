@@ -1,0 +1,30 @@
+:root {
+	--scrollbar-size: 6px;
+}
+
+/*
+Component Scrollbar Styles
+*/
+
+/* width */
+::-webkit-scrollbar {
+	width: var(--scrollbar-size);
+	height: var(--scrollbar-size);
+}
+
+/* Track */
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
+	background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: var(--colors-all--mid-gray);
+	border-radius: 99rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
